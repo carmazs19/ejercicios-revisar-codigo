@@ -1,0 +1,39 @@
+
+body {
+  background-color: purple;  /* se agrega un color a background*/
+}
+
+#lista-de-productos {
+  background-color: rgb(248, 104, 248); /* se agrega color a la lista de productos*/
+}
+
+
+input {
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#lista-de-productos {
+  display: flex
+}
+
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto img {
+  width: 70%;
+  height: auto
+}
+
+.producto:hover {
+  background-color: rgb(195, 95, 195);  /* se agrega color a los contenedores de los productos*/
+  cursor: pointer;
+}
